@@ -30,6 +30,10 @@ I think i managed to do that :)
 ```
 composer install
 ./vendor/bin/sail up
+./vendor/bin/sail php artisan migrate
+./vendor/bin/sail php artisan db:seed
 ./vendor/bin/sail composer run dev
+OR
+./vendor/bin/sail num run build
 ```
 
